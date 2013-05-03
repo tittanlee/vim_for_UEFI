@@ -42,7 +42,13 @@ Add filetype to your vimrc:
 
 ###2.[Ctags]:
 #### Step1 :
-*ctags.exe* is based on ctags source 5.8 (download form "http://ctags.sourceforge.net/" )
+*ctags.exe* is based on ctags source 5.8 (download form "http://ctags.sourceforge.net/" )  
+I've modified it to windows version and I comiled it via *Borland BCC55*
+>   Command to compile : make -f mk_bc5.mak
+>   Command to clean:    make -f mk_bc5.mak clean
+P.S The original regex is not compatible in WindowsOS so you will see "gnu_regex_dist".  
+It's modified version for Windows. 
+
 You can download source and use sdl.c, efilog.c to add language extension.  
 Or just use *ctags.exe* I compiled for Windows OS.
 
