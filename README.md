@@ -1,6 +1,5 @@
-[Name]:
-                readme.txt
 [Description]:
+====================================================================================
                 Here're VIM syntax, ctags plugin for AMI SDL and Debug message. 
                 1. SDL language syntax highlight.
                 2. Debug message language syntax highlight.
@@ -9,11 +8,15 @@
                 If you like view codes via VIM, 
                 it's good for you !
 [Author]:
+====================================================================================
                 0xeuclid@gmail.com
 
-[Revision]:     2013/5/3 am 10:19:26
+[Revision]:     
+====================================================================================
+                2013/5/3 am 10:19:26
 
 [Note]:
+====================================================================================
 
 1.[Syntax]:
     Usage : Just copy&paste "c.vim", "efilog.vim", "sdl.vim" to $VIMRUNTIME/syntax. 
