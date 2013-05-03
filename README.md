@@ -1,26 +1,23 @@
-#Description:
-                Here're VIM syntax, ctags plugin for AMI SDL and Debug message. 
-                1. SDL language syntax highlight.
-                2. Debug message language syntax highlight.
-                3. ctags language extention.
+##Description:
+    Here're VIM syntax, ctags plugin for AMI SDL and Debug message. 
+    1. SDL language syntax highlight.
+    2. Debug message language syntax highlight.
+    3. ctags language extention.
 
-                If you like view codes via VIM, 
-                it's good for you !
-#Author:
-====================================================================================
-                0xeuclid@gmail.com
+    If you like view codes via VIM, 
+    it's good for you !
+##Author:
+    0xeuclid@gmail.com
 
-[Revision]:     
-====================================================================================
-                2013/5/3 am 10:19:26
+##Revision:     
+    2013/5/3 am 10:19:26
 
-[Note]:
-====================================================================================
+##Note:
 
-1.[Syntax]:
+###1.[Syntax]:
     Usage : Just copy&paste "c.vim", "efilog.vim", "sdl.vim" to $VIMRUNTIME/syntax. 
 
-2.[ctags]:
+###2.[ctags]:
     If you have experiences with tagbar, taglist, or OmniComplete, 
     you should have ctags supporting first. 
     
@@ -28,7 +25,7 @@
     Feel free to modify for your own need !
 
     Don't forget adding SDL variable for Tagbar in your VIMRC 
-3. [vimrc setting] Ex:
+###3. [vimrc setting] Ex:
     |syntax setting|:
         "|#Syntax_and_Highlight|"{{{
         "--------------------------------------------------------------------------- 
