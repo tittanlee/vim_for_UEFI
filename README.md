@@ -6,8 +6,8 @@ Here're VIM syntax, ctags plugin for AMI SDL and Debug message.
 * SDL syntax.
 * Debug message syntax.
 
-###2. Ctags parser for SDL and Debug message.  
-If you have experiences with tagbar, taglist, or OmniComplete, 
+###2. *Ctags* parser for SDL and Debug message.  
+If you have experiences with *tagbar*, *taglist*, or *OmniComplete*, 
 you should have ctags supporting first. 
 
 Here's simple AMI SDL parser and debug message parser which can extract symbols.  
