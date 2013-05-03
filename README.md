@@ -14,15 +14,15 @@ Here's simple AMI SDL parser and debug message parser which can extract symbols.
 Feel free to modify for your own need !  
 
 If you like view codes via VIM,  
-it's good for you !
-##Revision:     
-    2013/5/3 am 10:19:26
+It's good for you !
+
 ##Note:
-###1.[Syntax]:
-    Usage : Just copy&paste "c.vim", "efilog.vim", "sdl.vim" to $VIMRUNTIME/syntax. 
-###2.[ctags]:
-       Don't forget adding SDL variable for Tagbar in your VIMRC 
-###3. [vimrc setting] Ex:
+
+###1.[VIM Syntax]:
+#### Step1 :
+Just copy&paste "c.vim", "efilog.vim", "sdl.vim" to $VIMRUNTIME/syntax. 
+#### Step2 :
+Add filetype to your vimrc:
     |syntax setting|:
         "|#Syntax_and_Highlight|"{{{
         "--------------------------------------------------------------------------- 
@@ -38,6 +38,15 @@ it's good for you !
         " Syntax highlight for *.asl
         au BufRead,BufNewFile *.asl set filetype=c
         "}}}
+
+###2.[Ctags]:
+#### Step1 :
+*ctags.exe* is based on ctags source 5.8 (download form "http://ctags.sourceforge.net/" )
+You can download source and use sdl.c, efilog.c to add language extension.  
+Or just use *ctags.exe* I compiled for Windows OS.
+
+#### Step2 :
+Add language extension for tagbar or taglist (Here I demo via tagbar):
 
     |ctags and tagbar setting| :
         "---
@@ -68,4 +77,6 @@ it's good for you !
         \ }
 ##Author:
     0xeuclid@gmail.com
+##Revision:     
+    2013/5/3 am 10:19:26
 "---
