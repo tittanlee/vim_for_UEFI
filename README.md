@@ -1,12 +1,12 @@
 ##Description:
 Here're VIM syntax, ctags plugin for AMI SDL and Debug message.   
-    1. VIM Syntax :  
-        * Intel UEFI syntax.
-        * SDL syntax.
-        * Debug message syntax.
-    2. Ctags parser for SDL and Debug message.  
-        If you have experiences with tagbar, taglist, or OmniComplete, 
-        you should have ctags supporting first. 
+1. VIM Syntax :  
+* Intel UEFI syntax.
+* SDL syntax.
+* Debug message syntax.
+2. Ctags parser for SDL and Debug message.  
+If you have experiences with tagbar, taglist, or OmniComplete, 
+you should have ctags supporting first. 
 
 Here's simple AMI SDL parser and debug message parser which can extract symbols.  
 Feel free to modify for your own need !  
