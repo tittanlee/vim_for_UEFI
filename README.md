@@ -23,6 +23,7 @@ It's good for you !
 Just copy&paste "c.vim", "efilog.vim", "sdl.vim" to $VIMRUNTIME/syntax. 
 #### Step2 :
 Add filetype to your vimrc:  
+
     |syntax setting|:
         "|#Syntax_and_Highlight|"{{{
         "--------------------------------------------------------------------------- 
