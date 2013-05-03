@@ -1,5 +1,4 @@
-[Description]:
-====================================================================================
+#Description:
                 Here're VIM syntax, ctags plugin for AMI SDL and Debug message. 
                 1. SDL language syntax highlight.
                 2. Debug message language syntax highlight.
@@ -7,7 +6,7 @@
 
                 If you like view codes via VIM, 
                 it's good for you !
-[Author]:
+#Author:
 ====================================================================================
                 0xeuclid@gmail.com
 
