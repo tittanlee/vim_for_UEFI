@@ -14,16 +14,17 @@ endif
 
 syn case ignore
 
-syn keyword sdlType             TOKEN ELINK IRQLINK PCIDEVICE IODEVICE IOAPIC PATH MODULE SEGMENT OUTPUTREGISTER END
-syn keyword sdlAttr             Name Value TokenType TargetEQU TargetMAK TargetH Help Range Parent Priority InvokeOrder SrcFile ASLfile File Master TargetASL Lock 
+syn keyword sdlType             TOKEN ELINK IRQLINK PCIDEVICE IODEVICE IOAPIC PATH MODULE SEGMENT OUTPUTREGISTER INFCOMPONENT PCDMAPPING LIBRARYMAPPING END
+syn keyword sdlAttr             Name Value TokenType TargetEQU TargetMAK TargetH Help Range Parent Priority InvokeOrder SrcFile ASLfile File Master TargetASL Lock Package PreProcess ModuleTypes GuidSpace PcdType Override Offset Length TargetDSC Class Instance TargetFDF Type Arch
 syn keyword sdlConst            Yes No AfterParent Boolean Expression ReplaceParent
 syn keyword sdlConst            Integer
 syn match   sdlComment          "#.*"
 syn match   sdlComment          "#.*"
 syn match   sdlWarn             "ERROR*"
 syn keyword sdlPCIDeviceAttr    Title Bus Dev Fun BridgeBus GPEbit SleepNum DeviceType PCIBusSize PCIBridge  WakeEnabled PWRBwake ROMMain IntA IntB IntC IntD Slot ASLdeviceName LPCBridge ROMFile DeviceID VendorID OptionROM
-syn keyword sdlIRQLinkAttr		Reg IrqList InterruptType
-syn region  String		start=+L\="+ skip=+\\\\\\"+ end=+"+
+syn keyword sdlIRQLinkAttr              Reg IrqList InterruptType
+syn region  String              start=+L\="+ skip=+\\\\\\"+ end=+"+
+syn region  SdlPcd              start="\M=\d" end="[hH]$"
 
 " Define the default highlighting.
 " For version 5.7 and earlier: only when not done already
@@ -45,11 +46,12 @@ if version >= 508 || !exists("did_masm_syntax_inits")
   HiLink sdlIRQLinkAttr          Include
   HiLink String         String
   HiLink sdlWarn        cError
+  HiLink SdlPcd         Constant
   syntax sync minlines=50
 
   delcommand HiLink
 endif
 
-let b:current_syntax = "sml"
+let b:current_syntax = "sdl"
 
 " vim: ts=8
