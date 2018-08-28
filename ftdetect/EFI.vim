@@ -5,6 +5,8 @@ augroup filetype
   au ColorScheme,BufRead,BufNewFile *.vfr set syntax=c.vfr
   au ColorScheme,BufRead,BufNewFile *.Vfr setf vfr
   au ColorScheme,BufRead,BufNewFile *.Vfr set syntax=c.vfr
+  au ColorScheme,BufRead,BufNewFile *.hfr setf vfr
+  au ColorScheme,BufRead,BufNewFile *.hfr set syntax=c.vfr
   au ColorScheme,BufRead,BufNewFile *.inf setf uefi
   au ColorScheme,BufRead,BufNewFile *.inf set syntax=uefi
   au ColorScheme,BufRead,BufNewFile *.inc set syntax=uefi
