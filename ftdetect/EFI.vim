@@ -10,8 +10,8 @@ augroup filetype
   au ColorScheme,BufRead,BufNewFile *.inf setf uefi
   au ColorScheme,BufRead,BufNewFile *.inf set syntax=uefi
   au ColorScheme,BufRead,BufNewFile *.inc set syntax=uefi
-  au ColorScheme,BufRead,BufNewFile *.c   set syntax=c.kss
-  au ColorScheme,BufRead,BufNewFile *.h   set syntax=c.kss
+  au ColorScheme,BufRead,BufNewFile *.c   set syntax=c
+  au ColorScheme,BufRead,BufNewFile *.h   set syntax=c
   au ColorScheme,BufRead,BufNewFile *.dec setf uefi
   au ColorScheme,BufRead,BufNewFile *.dsc setf uefi
   au ColorScheme,BufRead,BufNewFile *.fdf setf uefi
